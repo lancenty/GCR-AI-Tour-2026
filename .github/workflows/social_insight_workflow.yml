@@ -3,7 +3,8 @@ name: social-insight-workflow
 on:
   push:
     branches: [main]
-  pull_request:
+    paths-ignore:
+      - 'frontend/report.md'
   workflow_dispatch:
 
 permissions:
@@ -150,13 +151,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- frontend/report.md; then
-            echo "No frontend changes to commit."
-            exit 0
-          fi
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add frontend/report.md
+          if git diff --cached --quiet; then
+            echo "No frontend changes to commit."
+            exit 0
+          fi
           git commit -m "chore: update frontend report"
           git push
 
