@@ -1,5 +1,11 @@
 # Social Insight Multi-Agent Workflow
 
+> ⚠️ 说明：本仓库已完成向 **Tech Insight Workflow** 的重构落地（RSS/Sitemap/HTML 源聚合 → 技术趋势/公司雷达/工具更新/研究趋势 → 报告）。
+> 
+> - Tech 输入：`input/api/rss_list.json`
+> - 本地快速跑通（mock + 确定性兜底）：`./.venv/bin/python generated/tech_insight_workflow/run.py --mock-agents --non-interactive`
+> - 使用 Azure AI Foundry Agents：`./.venv/bin/python generated/tech_insight_workflow/run.py --azure-ai --non-interactive`
+
 **一句话概述**: 将「多平台热点信号」→「可追踪的核心热点」→「结构化社会洞察」→「平台级内容投放决策建议」
 
 这是一个基于 Microsoft Agent Framework (MAF) 的**分析型 Agent 工作流（Analysis → Insight → Decision）**，而不是生成型内容工厂。
@@ -36,7 +42,7 @@ ContentStrategyAgent (决策转译 Agent)
 
 - **类型**: 确定性工具，不调用模型
 - **职责**: 把"外部世界的热度噪声"转成**可回放的原始信号集**
-- **输入**: `hot_api_list.json` + 时间窗口
+- **输入**: `input/api/rss_list.json`（Tech Insight）或 `hot_api_list.json`（历史 Social Insight 兼容）
 - **输出**: `raw_signals.json`, `signals/*.json`
 
 #### 2️⃣ HotspotClusteringAgent
@@ -134,7 +140,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
    - 形如：`https://<your-foundry-resource>.services.ai.azure.com/api/projects/<your-project>`
 
 说明：
-- 学员不需要手工创建每个 Agent。本工作流会在 CI 运行时按名称创建/复用 agents，并写入 `generated/social_insight_workflow/agent_id_map.json`。
+- 学员不需要手工创建每个 Agent。本工作流会在 CI 运行时按名称创建/复用 agents，并写入 `generated/tech_insight_workflow/agent_id_map.json`。
 
 ### 2)（推荐）本地运行脚本：配置 Azure OIDC + 自动写入 GitHub Variables
 
@@ -264,7 +270,7 @@ Settings → Secrets and variables → Actions → Variables
 ```bash
 ./scripts/install_deps.sh --python-only
 cp .env.sample .env
-cd generated/social_insight_workflow
+cd generated/tech_insight_workflow
 python run.py --non-interactive --mock-agents
 ```
 
@@ -275,7 +281,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ./scripts/install_deps.ps1 -PythonOnly
 Copy-Item .env.sample .env
-Set-Location generated/social_insight_workflow
+Set-Location generated/tech_insight_workflow
 python run.py --non-interactive --mock-agents
 ```
 
@@ -300,8 +306,8 @@ python run.py --non-interactive --mock-agents
 ## 附录：实现与文件索引
 
 - 工作流 YAML：`workflows/social_insight_workflow.yaml`
-- 生成的可执行 runner：`generated/social_insight_workflow/run.py`
+- 生成的可执行 runner：`generated/tech_insight_workflow/run.py`
 - Agents spec / id map：
-  - `generated/social_insight_workflow/agents.yaml`
-  - `generated/social_insight_workflow/agent_id_map.json`
+  - `generated/tech_insight_workflow/agents.yaml`
+  - `generated/tech_insight_workflow/agent_id_map.json`
 - 输出目录：`output/<timestamp>/report.md`

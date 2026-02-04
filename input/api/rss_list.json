@@ -1,0 +1,515 @@
+[
+  {
+    "id": 1,
+    "name": "Lobsters",
+    "platform": "lobste.rs",
+    "source": "rss",
+    "url": "https://lobste.rs/rss"
+  },
+  {
+    "id": 2,
+    "name": "Slashdot",
+    "platform": "slashdot",
+    "source": "rss",
+    "url": "https://rss.slashdot.org/Slashdot/slashdotMain"
+  },
+  {
+    "id": 3,
+    "name": "Indie Hackers",
+    "platform": "indiehackers",
+    "source": "rss",
+    "url": "https://feed.indiehackers.world/posts.rss"
+  },
+  {
+    "id": 4,
+    "name": "微软AI",
+    "platform": "microsoft-ai",
+    "source": "rss",
+    "url": "https://blogs.microsoft.com/ai/feed/"
+  },
+  {
+    "id": 5,
+    "name": "Google AI Blog",
+    "platform": "google-ai",
+    "source": "rss",
+    "url": "https://blog.google/technology/ai/rss/"
+  },
+  {
+    "id": 6,
+    "name": "OpenAI News",
+    "platform": "openai",
+    "source": "rss",
+    "url": "https://openai.com/news/rss.xml"
+  },
+  {
+    "id": 7,
+    "name": "DeepMind Blog",
+    "platform": "deepmind",
+    "source": "rss",
+    "url": "https://deepmind.google/blog/rss.xml"
+  },
+  {
+    "id": 8,
+    "name": "美团技术团队",
+    "platform": "meituan-tech",
+    "source": "rss",
+    "url": "https://tech.meituan.com/feed/"
+  },
+  {
+    "id": 9,
+    "name": "码农场",
+    "platform": "hankcs",
+    "source": "rss",
+    "url": "https://www.hankcs.com/feed"
+  },
+  {
+    "id": 10,
+    "name": "Machine Learning Mastery",
+    "platform": "mlmastery",
+    "source": "rss",
+    "url": "https://machinelearningmastery.com/blog/feed/"
+  },
+  {
+    "id": 11,
+    "name": "MarkTechPost",
+    "platform": "marktechpost",
+    "source": "rss",
+    "url": "https://www.marktechpost.com/feed/"
+  },
+  {
+    "id": 12,
+    "name": "Berkeley AI Research",
+    "platform": "bair",
+    "source": "rss",
+    "url": "https://bair.berkeley.edu/blog/feed.xml"
+  },
+  {
+    "id": 13,
+    "name": "Google Research",
+    "platform": "google-research",
+    "source": "rss",
+    "url": "https://research.google/blog/rss/"
+  },
+  {
+    "id": 14,
+    "name": "MIT AI News",
+    "platform": "mit-ai",
+    "source": "rss",
+    "url": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+  },
+  {
+    "id": 15,
+    "name": "Analytics Vidhya",
+    "platform": "analyticsvidhya",
+    "source": "rss",
+    "url": "https://www.analyticsvidhya.com/feed/"
+  },
+  {
+    "id": 16,
+    "name": "AI2People",
+    "platform": "ai2people",
+    "source": "rss",
+    "url": "https://ai2people.com/feed/"
+  },
+  {
+    "id": 17,
+    "name": "TechSpective AI",
+    "platform": "techspective-ai",
+    "source": "rss",
+    "url": "https://techspective.net/category/technology/artificial-intelligence/feed/"
+  },
+  {
+    "id": 18,
+    "name": "AI Digest (QuData)",
+    "platform": "qudata",
+    "source": "rss",
+    "url": "https://qudata.com/en/news/rss.xml"
+  },
+  {
+    "id": 19,
+    "name": "AI TechPark",
+    "platform": "ai-techpark",
+    "source": "rss",
+    "url": "https://ai-techpark.com/feed/"
+  },
+  {
+    "id": 20,
+    "name": "AI Accelerator Institute",
+    "platform": "ai-accelerator",
+    "source": "rss",
+    "url": "https://www.aiacceleratorinstitute.com/rss/"
+  },
+  {
+    "id": 21,
+    "name": "AI Weirdness",
+    "platform": "ai-weirdness",
+    "source": "rss",
+    "url": "https://www.aiweirdness.com/rss/"
+  },
+  {
+    "id": 22,
+    "name": "Anaconda Blog",
+    "platform": "anaconda",
+    "source": "rss",
+    "url": "https://www.anaconda.com/blog/feed"
+  },
+  {
+    "id": 23,
+    "name": "AI Hub",
+    "platform": "aihub",
+    "source": "rss",
+    "url": "https://aihub.org/feed/"
+  },
+  {
+    "id": 24,
+    "name": "AI News",
+    "platform": "ai-news",
+    "source": "rss",
+    "url": "https://www.artificialintelligence-news.com/feed/"
+  },
+  {
+    "id": 25,
+    "name": "arXiv Statistics",
+    "platform": "arxiv-stat",
+    "source": "rss",
+    "url": "https://export.arxiv.org/rss/stat"
+  },
+  {
+    "id": 26,
+    "name": "arXiv Computer Science",
+    "platform": "arxiv-cs",
+    "source": "rss",
+    "url": "https://export.arxiv.org/rss/cs"
+  },
+  {
+    "id": 27,
+    "name": "arXiv Economics",
+    "platform": "arxiv-econ",
+    "source": "rss",
+    "url": "https://export.arxiv.org/rss/econ"
+  },
+  {
+    "id": 28,
+    "name": "arXiv EESS",
+    "platform": "arxiv-eess",
+    "source": "rss",
+    "url": "https://export.arxiv.org/rss/eess"
+  },
+  {
+    "id": 29,
+    "name": "Product Hunt",
+    "platform": "producthunt",
+    "source": "rss",
+    "url": "https://www.producthunt.com/feed"
+  },
+  {
+    "id": 30,
+    "name": "TechCrunch",
+    "platform": "techcrunch",
+    "source": "rss",
+    "url": "https://techcrunch.com/feed/"
+  },
+  {
+    "id": 31,
+    "name": "The Verge",
+    "platform": "theverge",
+    "source": "rss",
+    "url": "https://www.theverge.com/rss/index.xml"
+  },
+  {
+    "id": 32,
+    "name": "Ars Technica",
+    "platform": "arstechnica",
+    "source": "rss",
+    "url": "https://feeds.arstechnica.com/arstechnica/index"
+  },
+  {
+    "id": 34,
+    "name": "Y Combinator Blog",
+    "platform": "ycombinator-blog",
+    "source": "rss",
+    "url": "https://www.ycombinator.com/blog/rss"
+  },
+  {
+    "id": 35,
+    "name": "Benedict Evans",
+    "platform": "ben-evans",
+    "source": "rss",
+    "url": "https://www.ben-evans.com/benedictevans?format=rss"
+  },
+  {
+    "id": 36,
+    "name": "Elad Gil",
+    "platform": "eladgil",
+    "source": "rss",
+    "url": "https://blog.eladgil.com/feeds/posts/default"
+  },
+  {
+    "id": 37,
+    "name": "Not Boring",
+    "platform": "notboring",
+    "source": "rss",
+    "url": "https://www.notboring.co/feed"
+  },
+  {
+    "id": 38,
+    "name": "Sequoia Capital",
+    "platform": "sequoiacap",
+    "source": "rss",
+    "url": "https://sequoiacap.com/feed/"
+  },
+  {
+    "id": 39,
+    "name": "Bloomberg Technology",
+    "platform": "bloomberg-technology",
+    "source": "rss",
+    "url": "https://feeds.bloomberg.com/technology/news.rss"
+  },
+  {
+    "id": 40,
+    "name": "MIT Technology Review",
+    "platform": "mit-technology-review",
+    "source": "rss",
+    "url": "https://www.technologyreview.com/feed/"
+  },
+  {
+    "id": 41,
+    "name": "Anthropic News & Research",
+    "platform": "anthropic",
+    "source": "sitemap",
+    "url": "https://www.anthropic.com/sitemap.xml",
+    "signal_level": "S",
+    "company": "Anthropic"
+  },
+  {
+    "id": 42,
+    "name": "Cloudflare Blog",
+    "platform": "cloudflare",
+    "source": "rss",
+    "url": "https://blog.cloudflare.com/rss/",
+    "signal_level": "A",
+    "company": "Cloudflare"
+  },
+  {
+    "id": 43,
+    "name": "Cloudflare Workers AI",
+    "platform": "cloudflare-workers-ai",
+    "source": "rss",
+    "url": "https://blog.cloudflare.com/tag/workers-ai/rss/",
+    "signal_level": "A",
+    "company": "Cloudflare"
+  },
+  {
+    "id": 44,
+    "name": "Hugging Face Blog",
+    "platform": "huggingface",
+    "source": "rss",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "signal_level": "B",
+    "company": "Hugging Face"
+  },
+  {
+    "id": 45,
+    "name": "Mistral AI News",
+    "platform": "mistral-ai",
+    "source": "sitemap",
+    "url": "https://mistral.ai/sitemap.xml",
+    "signal_level": "B",
+    "company": "Mistral AI"
+  },
+  {
+    "id": 46,
+    "name": "Databricks Blog",
+    "platform": "databricks",
+    "source": "sitemap",
+    "url": "https://docs.databricks.com/sitemap.xml",
+    "signal_level": "B",
+    "company": "Databricks"
+  },
+  {
+    "id": 47,
+    "name": "Databricks CLI Releases",
+    "platform": "databricks-engineering",
+    "source": "rss",
+    "url": "https://github.com/databricks/cli/releases.atom",
+    "signal_level": "B",
+    "company": "Databricks"
+  },
+  {
+    "id": 48,
+    "name": "Snowflake Blog",
+    "platform": "snowflake",
+    "source": "sitemap",
+    "url": "https://www.snowflake.com/content/snowflake-site/global.sitemap.xml",
+    "signal_level": "B",
+    "company": "Snowflake"
+  },
+  {
+    "id": 49,
+    "name": "GitHub Changelog",
+    "platform": "github-changelog",
+    "source": "rss",
+    "url": "https://github.blog/changelog/feed/",
+    "signal_level": "A",
+    "company": "GitHub"
+  },
+  {
+    "id": 50,
+    "name": "GitHub Copilot Updates (GitHub Blog Tag)",
+    "platform": "github-copilot",
+    "source": "rss",
+    "url": "https://github.blog/tag/github-copilot/feed/",
+    "signal_level": "A",
+    "company": "GitHub"
+  },
+  {
+    "id": 51,
+    "name": "Cursor Changelog",
+    "platform": "cursor",
+    "source": "rss",
+    "url": "https://cursor.com/changelog/rss.xml",
+    "signal_level": "B",
+    "company": "Cursor"
+  },
+  {
+    "id": 52,
+    "name": "Claude Code Releases (GitHub Atom)",
+    "platform": "claude-code",
+    "source": "rss",
+    "url": "https://github.com/anthropics/claude-code/releases.atom",
+    "signal_level": "B",
+    "company": "Anthropic"
+  },
+  {
+    "id": 53,
+    "name": "Aider Releases (GitHub Atom)",
+    "platform": "aider",
+    "source": "rss",
+    "url": "https://github.com/Aider-AI/aider/releases.atom",
+    "signal_level": "B",
+    "company": "Aider"
+  },
+  {
+    "id": 54,
+    "name": "Continue Releases (GitHub Atom)",
+    "platform": "continue",
+    "source": "rss",
+    "url": "https://github.com/continuedev/continue/releases.atom",
+    "signal_level": "B",
+    "company": "Continue"
+  },
+  {
+    "id": 55,
+    "name": "Cline Releases (GitHub Atom)",
+    "platform": "cline",
+    "source": "rss",
+    "url": "https://github.com/cline/cline/releases.atom",
+    "signal_level": "B",
+    "company": "Cline"
+  },
+  {
+    "id": 56,
+    "name": "OpenAI Codex (filtered)",
+    "platform": "openai-codex",
+    "source": "rss",
+    "url": "https://openai.com/blog/rss.xml",
+    "signal_level": "S",
+    "company": "OpenAI",
+    "include_keywords": [
+      "codex"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Google Antigravity (Google AI Blog filtered)",
+    "platform": "google-antigravity",
+    "source": "rss",
+    "url": "https://blog.google/technology/ai/rss/",
+    "signal_level": "A",
+    "company": "Google",
+    "include_keywords": [
+      "antigravity",
+      "gemini code assist",
+      "code assist",
+      "duet ai",
+      "project idx",
+      "gemini",
+      "codey"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "AWS Krio (What's New filtered)",
+    "platform": "aws-krio",
+    "source": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
+    "signal_level": "A",
+    "company": "AWS",
+    "include_keywords": [
+      "krio",
+      "amazon q",
+      "q developer",
+      "codewhisperer",
+      "code whisperer",
+      "devops guru",
+      "devops",
+      "ai coding"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "ByteDance Trea (News HTML filtered)",
+    "platform": "bytedance-trea",
+    "source": "html",
+    "url": "https://www.bytedance.com/en/news",
+    "signal_level": "B",
+    "company": "ByteDance",
+    "include_keywords": [
+      "trea",
+      "marscode",
+      "代码助手",
+      "code assistant",
+      "ai coding",
+      "ai 代码"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Alibaba Qodr (Blog HTML filtered)",
+    "platform": "alibaba-qodr",
+    "source": "html",
+    "url": "https://www.alibabacloud.com/blog",
+    "signal_level": "B",
+    "company": "Alibaba",
+    "include_keywords": [
+       "qodr",
+       "lingma",
+       "通义灵码",
+       "code assistant",
+       "ai coding"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "AWS Developer Blog (filtered)",
+    "platform": "aws-developer-blog",
+    "source": "rss",
+    "url": "https://aws.amazon.com/blogs/developer/feed/",
+    "signal_level": "A",
+    "company": "AWS",
+    "include_keywords": [
+      "amazon q",
+      "q developer",
+      "codewhisperer",
+      "code whisperer",
+      "devops",
+      "code catalyst",
+      "codeguru",
+      "bedrock",
+      "ai coding",
+      "ide",
+      "sdk"
+    ]
+  }
+]
+
