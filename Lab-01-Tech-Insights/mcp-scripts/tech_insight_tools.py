@@ -254,6 +254,7 @@ def tech_fetch_all_to_disk(
     *,
     source_list_path: str = "input/api/rss_list.json",
     output_dir: str = "./output/signals",
+    signals_dir: str | None = None,
     timeout_seconds: int = 20,
     max_chars: int = 200000,
     max_items_per_source: int = 25,
@@ -264,6 +265,10 @@ def tech_fetch_all_to_disk(
     """
 
     del max_items_per_source  # kept for parity with workflow args
+
+    # signals_dir is an alias for output_dir
+    if signals_dir is not None:
+        output_dir = signals_dir
 
     out_dir = Path(output_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
